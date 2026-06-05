@@ -344,4 +344,14 @@ input:focus, select:focus, textarea:focus {
     .button-group { flex-direction: column; }
     .tab-content { padding: 20px; }
     .question { padding: 15px; }
+@media (max-width: 480px) {
+.btn-secondary {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        width: auto; 
+        padding: 6px 14px;
+        font-size: 13px;
+    }
+}
 }
